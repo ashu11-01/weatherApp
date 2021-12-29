@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #0e1c3a;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.pallette {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(7, 98, 12);
+  padding: 10px;
+  text-align: left;
+  font-size: calc(7px + 2vmin);
+  color: #93ecd6;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #0e1c3a;
+  opacity: 60%;
+  border-radius: 10px;
+}
+
+.pallette:hover{
+  opacity: 90%;
+}
+
+.input {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: #a5bef6;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+}
+
+.label{
+  font-family: 'Courier New', Courier, monospace;
+  color: #0e1c3a;
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 3px;
+  background-color: #808592;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+}
+
+.btn:hover{
+  background-color: #627299;
+}
